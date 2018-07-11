@@ -1,0 +1,43 @@
+{
+  "name": "recipes",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@types/expo": "^27.0.5",
+    "@types/graphql": "^0.13.3",
+    "@types/react": "^16.4.6",
+    "@types/react-native": "^0.55.27",
+    "jest-expo": "~28.0.0",
+    "metro-bundler": "^0.22.1",
+    "prettier": "^1.13.7",
+    "react-native-scripts": "^1.14.1",
+    "react-native-typescript-transformer": "^1.2.10",
+    "react-test-renderer": "16.4.1",
+    "typescript": "^2.9.2"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest",
+    "format": "prettier --write"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.1.10",
+    "expo": "^28.0.0",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "lodash": "^4.17.10",
+    "react": "16.4.1",
+    "react-apollo": "^2.1.8",
+    "react-native": "~0.55.2",
+    "react-native-keyboard-aware-scroll-view": "^0.6.0",
+    "react-native-paper": "^1.11.0",
+    "react-navigation": "^2.5.5"
+  }
+}
